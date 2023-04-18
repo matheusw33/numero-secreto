@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Adivinha Numero</title>
+</head>
+<body>
+    <section class="canva">
+        <h1>Adivinhe o numero</h1>
+        <form action="" id="formulario">
+            <label for="numero">Chute um numero entre <span id="menor-valor">1</span> e <span id="maior-valor">100</span></label>
+            <input type="text" id="numero">
+            <div id="dica"></div>
+        </form>
+        <button type="submit" form="digita-numero" value="submit" id="btn">Conferir</button>
+    </section>
+
+<script src="./js/main.js"></script>
+<script src="./js/comparando.js"></script>
+</body>
+</html>
